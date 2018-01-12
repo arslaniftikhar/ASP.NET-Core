@@ -1,0 +1,56 @@
+﻿@model WebApplication1.Models.ProductModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+
+<script>
+    
+</script>
+
+<div style="width:700px; background-color:grey; color:black; margin:auto;">
+
+    <form asp-controller="ShoopingCart" asp-action="SaveProduct" method="post">
+
+        <div>
+            <label style="width:250px;background-color:red;border:double;">Product Id </label>
+            
+            <input asp-for="ID" class="TextBox" />
+            <span asp-validation-for="ID" class="ValidationCnt"></span>
+        </div>
+        <div>
+            <label style="width:250px;background-color:red;border:double;"> Product Name : </label>
+
+           
+            
+            <input asp-for="ProductName" class="TextBox"/>
+            
+            <span asp-validation-for="ProductName" class="ValidationCnt"></span>
+        </div>
+
+        <div>
+            
+            <label style="width:250px;background-color:red;border:double;"> Product discription : </label>
+
+
+            <input asp-for="Discription"  class="TextBox" />
+            
+            <span asp-validation-for="Discription" class="ValidationCnt"></span>
+        </div>
+
+        <div>
+           
+            <label style="width:250px;background-color:red;border:double;">  Product Price :</label>
+
+            <input asp-for="ProductPrice" class="TextBox" />
+            <span asp-validation-for="ProductPrice" class="ValidationCnt"></span>
+        </div>
+
+        <input type="submit" value="Create a New product" class="btn-danger" />
+    </form>
+</div>

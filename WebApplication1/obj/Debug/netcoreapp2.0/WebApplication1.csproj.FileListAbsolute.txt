@@ -1,0 +1,34 @@
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.pdb
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+F:\ue\BS IT 17\Section B\2017-12-22\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojResolveAssemblyReference.cache
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+F:\ue\BS IT 17\Section B\2017-12-22 - Copy\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.pdb
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojResolveAssemblyReference.cache
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.Library.dll
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.Library.pdb
+E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.pdb
