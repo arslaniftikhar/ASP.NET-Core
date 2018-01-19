@@ -1,6 +1,5 @@
 # ASP.NET-Core
 
-Code for the today classes 
 Here is the complete CRUD (Create, Read, Update and Delete) 
 code for the ASP.NET MVC Core without using EF (Entity Framework).
 
