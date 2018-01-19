@@ -6,38 +6,42 @@ namespace WebApplication1.Library
 {
    public class Product
     {
-        private int id;
+        //private int id;
 
-        public int ID
-        {
-            get { return id; }
-            set { id = value; }
-        }
+        //public int ID
+        //{
+        //    get { return id; }
+        //    set { id = value; }
+        //}
 
-        private string productName;
+        //private string productName;
 
-        public string ProductName
-        {
-            get { return productName; }
-            set { productName = value; }
-        }
+        //public string ProductName
+        //{
+        //    get { return productName; }
+        //    set { productName = value; }
+        //}
 
-        private int productPrice;
+        //private int productPrice;
 
-        public int ProductPrice
-        {
-            get { return productPrice; }
-            set { productPrice = value; }
-        }
+        //public int ProductPrice
+        //{
+        //    get { return productPrice; }
+        //    set { productPrice = value; }
+        //}
 
 
-        private string discription;
+        //private string discription;
 
-        public string Discription
-        {
-            get { return discription; }
-            set { discription = value; }
-        }
+        //public string ProductDetails
+        //{
+        //    get { return discription; }
+        //    set { discription = value; }
+        //}
+        public int ID { get; set; }
+        public string ProductName { get; set; }
+        public int ProductPrice { get; set; }
+        public string ProductDetails { get; set; }
 
         public Product() { }
 

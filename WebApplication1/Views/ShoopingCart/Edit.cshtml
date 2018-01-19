@@ -1,0 +1,48 @@
+﻿@model WebApplication1.Models.ProductModel
+
+    @{
+        ViewData["Title"] = "Edit";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <div style="width:700px; background-color:grey; color:black; margin:auto;">
+
+        <form asp-controller="ShoopingCart" asp-action="Update" method="post">
+
+
+
+            @foreach (var item in ViewBag.product)
+            {
+                <input asp-for="ID" type="hidden" class="TextBox" value="@item.ID" />
+                <div>
+                    <label style="width:250px;background-color:red;border:double;"> Product Name : </label>
+
+
+
+                    <input asp-for="ProductName" class="TextBox" value="@item.ProductName" />
+
+                    <span asp-validation-for="ProductName" class="ValidationCnt"></span>
+                </div>
+
+                <div>
+
+                    <label style="width:250px;background-color:red;border:double;"> Product discription : </label>
+
+
+                    <input asp-for="ProductDetails" class="TextBox" value="@item.ProductDetails" />
+
+                    <span asp-validation-for="ProductDetails" class="ValidationCnt"></span>
+                </div>
+
+                <div>
+
+                    <label style="width:250px;background-color:red;border:double;">  Product Price :</label>
+
+                    <input asp-for="ProductPrice" class="TextBox" value="@item.ProductPrice" />
+                    <span asp-validation-for="ProductPrice" class="ValidationCnt"></span>
+                </div>
+            }
+
+            <input type="submit" value="Create a New product" class="btn-danger" />
+        </form>
+    </div>

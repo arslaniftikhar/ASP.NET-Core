@@ -1102,11 +1102,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\WebApplication1.Library.csproj",
+      "projectUniqueName": "D:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\WebApplication1.Library.csproj",
       "projectName": "WebApplication1.Library",
-      "projectPath": "E:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\WebApplication1.Library.csproj",
+      "projectPath": "D:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\WebApplication1.Library.csproj",
       "packagesPath": "C:\\Users\\Arslan Iftikhar\\.nuget\\packages\\",
-      "outputPath": "E:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\obj\\",
+      "outputPath": "D:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

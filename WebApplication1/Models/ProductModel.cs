@@ -23,7 +23,7 @@ namespace WebApplication1.Models
         [Display(Name = "Product Discription")]
         [MinLength(5)]
         [Required]
-        public string Discription { get; set; }
+        public string ProductDetails { get; set; }
         [Display(Name = "Product Name")]
         [Required]
         public string ProductName { get; set; }

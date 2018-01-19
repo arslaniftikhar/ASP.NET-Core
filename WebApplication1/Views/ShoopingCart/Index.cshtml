@@ -7,14 +7,20 @@
 }
 
 
-@foreach (var p in Model)
+@if (Model != null)
 {
-    <div style="width:500px; background-color:grey; color:black; margin:auto;">
+    @foreach (var p in Model)
+    {
+        <div style="width:500px; background-color:grey; color:black; margin:auto;">
 
-        <div style="width:150px; background-color:grey; color:black; float:left;"> @p.ID </div>
-        <div style="width:200px; background-color:deeppink; color:black; float:left;">@p.ProductName </div>
-        <div style="width:150px; background-color:grey; color:black; float:left;">@p.ProductPrice </div>
+            <div style="width:150px; background-color:grey; color:black; float:left;"> @p.ID </div>
+            <div style="width:200px; background-color:deeppink; color:black; float:left;">@p.ProductName </div>
+            <div style="width:150px; background-color:grey; color:black; float:left;">@p.ProductPrice 
+            @Html.ActionLink("Edit", "Edit", "ShoopingCart", new { @id = p.ID }, null) |
+                @Html.ActionLink("Delete", "Delete", "ShoopingCart", new { @id = p.ID }, null)
+            </div>
 
         </div>
 
+    }
 }

@@ -7,76 +7,113 @@ namespace WebApplication1.Library.DAL
 {
   public static class ProductDAL
     {
-
-     public static  List<Product> GetAllProduct()
+       
+        
+        public static  List<Product> GetAllProduct()
         {
-
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-264EDV0;initial Catalog=ClassPractice; user id=dbo; Password=abc123;");
-
-            SqlCommand cmd = new SqlCommand("select * from Product;", con);
-
+            DatabaseClass databaseClass = new DatabaseClass();
+            
+            var sql = "select * from Products;";
+            databaseClass.Query(sql);
             List<Product> productList = new List<Product>();
-            con.Open();
+            databaseClass.sqlConnection.Open();
 
-            using (con)
+            using (databaseClass.sqlConnection)
             {
 
-                SqlDataReader dr = cmd.ExecuteReader();
+                SqlDataReader dr = databaseClass.sqlCommand.ExecuteReader();
 
                 if (dr.HasRows)
                 {
-
-
                     while (dr.Read())
-                    {
-                        
+                    {                        
                         Product obj = new Product();
 
                         obj.ID = Convert.ToInt32(dr[0]);
-                        obj.ProductName = Convert.ToString(dr["ProductName"]);
-                        obj.ProductPrice = Convert.ToInt32(dr["price"]);
-
-                        obj.Discription = Convert.ToString(dr["discription"]); 
-
+                        obj.ProductName = Convert.ToString(dr[1]);
+                        obj.ProductPrice = Convert.ToInt32(dr[2]);
+                        obj.ProductDetails = Convert.ToString(dr[3]); 
                         productList.Add(obj);
                     }
-
                     productList.TrimExcess();
                 }
-
                 return productList;
-
-
             }
+        }
+        public static List<Product> GetById(int id)
+        {
+            DatabaseClass databaseClass = new DatabaseClass();
+            var sql = "SELECT * FROM Products WHERE Id=@id";  
+            databaseClass.Query(sql);
+            List<Product> productList = new List<Product>();
+            //Product product = new Product();
+            databaseClass.sqlConnection.Open();
+            using (databaseClass.sqlConnection)
+            {
+                databaseClass.sqlCommand.Parameters.AddWithValue("@id", id);
+                SqlDataReader dataReader = databaseClass.sqlCommand.ExecuteReader();
+                if (dataReader.HasRows)
+                {
+                    while (dataReader.Read())
+                    {
+                        Product product = new Product();
+                        product.ID = Convert.ToInt32(dataReader[0]);
+                        product.ProductName = Convert.ToString(dataReader[1]);
+                        product.ProductPrice = Convert.ToInt32(dataReader[2]);
+                        product.ProductDetails = Convert.ToString(dataReader[3]);
+                        productList.Add(product);
+                    }
+                    productList.TrimExcess();
+                }
+                
+            }
+            return productList;
+        }
+        public static void InsertProduct(Product p)
+        {
+            DatabaseClass databaseClass = new DatabaseClass();
+            var sql = "insert into Products (Id, ProductName,ProductPrice,ProductDetails) values (@id, @proName,@pPrice,@Discription);";
+            databaseClass.Query(sql);
+            databaseClass.sqlConnection.Open();
 
+            using (databaseClass.sqlConnection)
+            {
+                    databaseClass.sqlCommand.Parameters.AddWithValue("@id", p.ID);
+                    databaseClass.sqlCommand.Parameters.AddWithValue("@proName", p.ProductName);
+                    databaseClass.sqlCommand.Parameters.AddWithValue("@pPrice", p.ProductPrice);
+                    databaseClass.sqlCommand.Parameters.AddWithValue("@Discription", p.ProductDetails);
+                    databaseClass.sqlCommand.ExecuteNonQuery();
+            }
         }
 
-        public static void InsertProduct( Product p)
+        public static void UpdateProduct(Product product)
         {
-           
-         
-                SqlConnection con = new SqlConnection("Data Source=DESKTOP-IH19O78;initial Catalog=UEBSITSectionB; user id=sa; Password=abc123;");
+            DatabaseClass databaseClass = new DatabaseClass();
 
-                SqlCommand cmd = new SqlCommand("insert into Product (ProductName,price,Discription) values (@proName,@pPrice,@Discription);", con);
+            var sql = "UPDATE Products SET ProductName = @name, ProductPrice = @price,ProductDetails = @details WHERE Id = @id; ";
+            databaseClass.Query(sql);
+            databaseClass.sqlConnection.Open();
+            using (databaseClass.sqlConnection)
+            {
+                databaseClass.sqlCommand.Parameters.AddWithValue("@name", product.ProductName);
+                databaseClass.sqlCommand.Parameters.AddWithValue("@price", product.ProductPrice);
+                databaseClass.sqlCommand.Parameters.AddWithValue("@details", product.ProductDetails);
+                databaseClass.sqlCommand.Parameters.AddWithValue("@id", product.ID);
+                databaseClass.sqlCommand.ExecuteNonQuery();
+            }
+        }
 
-
-                con.Open();
-
-                using (con)
-                {
-
-                cmd.Parameters.AddWithValue("@proName", p.ProductName);
-                cmd.Parameters.AddWithValue("@pPrice", p.ProductPrice);
-                cmd.Parameters.AddWithValue("@Discription", p.Discription);
-
-                cmd.ExecuteNonQuery();
-
-
-                }
-
-           
-
-
+        public static void Delete(int id)
+        {
+            DatabaseClass db = new DatabaseClass();
+            var sql = "Delete From Products WHERE Id=@id";
+            db.Query(sql);
+            db.sqlConnection.Open();
+            using (db.sqlConnection)
+            {
+                db.sqlCommand.Parameters.AddWithValue("@id", id);
+                db.sqlCommand.ExecuteNonQuery();
+            }
 
         }
     }

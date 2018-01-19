@@ -13,3 +13,12 @@ E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebAp
 E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.AssemblyInfo.cs
 E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.dll
 E:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.pdb
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\bin\Debug\netcoreapp2.0\WebApplication1.Library.deps.json
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\bin\Debug\netcoreapp2.0\WebApplication1.Library.dll
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\bin\Debug\netcoreapp2.0\WebApplication1.Library.pdb
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.csprojResolveAssemblyReference.cache
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.csproj.CoreCompileInputs.cache
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.AssemblyInfoInputs.cache
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.AssemblyInfo.cs
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.dll
+D:\My Drive\PDF\Study\7th Semester\Web\Section B\2018-1-09\WebApplication1\WebApplication1.Library\obj\Debug\netcoreapp2.0\WebApplication1.Library.pdb

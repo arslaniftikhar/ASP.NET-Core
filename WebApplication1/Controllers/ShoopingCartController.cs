@@ -28,8 +28,6 @@ namespace WebApplication1.Controllers
                     tempProduct.ProductName = pObj.ProductName;
                     tempProduct.ProductPrice = pObj.ProductPrice;
                     tempList.Add(tempProduct);
-
-
                 }
 
             }
@@ -41,15 +39,55 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+        public IActionResult Edit(int id)
+        {          
+            List<Product> list = new List<Product>();
+            list = ProductDAL.GetById(id);
+            List<ProductModel> tempList = null;
+            if (list != null && list.Count > 0)
+            {
+                ProductModel productModel = new ProductModel();
+                foreach (Product item in list)
+                {
+                    tempList = new List<ProductModel>();
+                    productModel.ID = item.ID;
+                    productModel.ProductName = item.ProductName;
+                    productModel.ProductPrice = item.ProductPrice;
+                    productModel.ProductDetails = item.ProductDetails;
+                    tempList.Add(productModel);
+                    ViewBag.product = tempList;
+                }
+            }
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Update(ProductModel productModel)
+        {
+            Product product = new Product();
+            product.ID = productModel.ID;
+            product.ProductName = productModel.ProductName;
+            product.ProductPrice = productModel.ProductPrice;
+            product.ProductDetails = productModel.ProductDetails;
+            ProductDAL.UpdateProduct(product);
+            return RedirectToAction("Index");
+        }
 
         public IActionResult SaveProduct( ProductModel ProModel)
         {
             Product PROBJ = new Product();
+            PROBJ.ID = ProModel.ID;
             PROBJ.ProductName = ProModel.ProductName;
             PROBJ.ProductPrice = ProModel.ProductPrice;
-            PROBJ.Discription = PROBJ.Discription;
+            PROBJ.ProductDetails = ProModel.ProductDetails;
             ProductDAL.InsertProduct(PROBJ);
             return View(ProModel);
+
+        }
+        public IActionResult Delete(int id)
+        {
+            ProductDAL.Delete(id);
+            return RedirectToAction("Index");
         }
 
     }

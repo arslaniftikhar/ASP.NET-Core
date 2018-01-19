@@ -13145,11 +13145,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "E:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "D:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Arslan Iftikhar\\.nuget\\packages\\",
-      "outputPath": "E:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "D:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13168,8 +13168,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\WebApplication1.Library.csproj": {
-              "projectPath": "E:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\WebApplication1.Library.csproj"
+            "D:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\WebApplication1.Library.csproj": {
+              "projectPath": "D:\\My Drive\\PDF\\Study\\7th Semester\\Web\\Section B\\2018-1-09\\WebApplication1\\WebApplication1.Library\\WebApplication1.Library.csproj"
             }
           }
         }
